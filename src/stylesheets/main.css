@@ -1,1 +1,70 @@
 /* Your styles go here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: .5rem;
+    background-color: rgb(247, 227, 161);
+}
+header, footer{
+    text-align: center;
+    color: rgb(110, 3, 3);
+    background-color: rgb(216, 144, 96);
+    border-style: double;
+    border-width: 0.4rem;
+    border-color: brown;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+h2{
+    color: rgb(121, 30, 12);
+}
+nav a:hover{
+    background-color: rgba(54, 6, 6, 0.568);
+    color: rgb(203, 224, 217);
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(194, 108, 68);
+    color: rgb(219, 192, 192);
+    text-align: center;
+    padding: .4rem;
+    border: 1px solid rgb(97, 21, 21);
+    width: 100%;
+}
+main{
+    background-color: rgba(216, 140, 90, 0.712);
+    color: rgb(255, 239, 218);
+    b{    color: rgb(175, 57, 33);
+    }
+    border-style: double;
+    border-width: 0.4rem;
+    border-color: brown;
+}
+@media (min-width:762px){
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        }
+    img{
+        max-width: 450px;
+    }
+}
+a{
+    color: brown;
+}
